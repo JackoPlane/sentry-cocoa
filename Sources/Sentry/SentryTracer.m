@@ -3,6 +3,7 @@
 #import "SentrySpanContext.h"
 #import "SentrySpanId.h"
 #import "SentryTransaction.h"
+#import <Sentry/Sentry.h>
 
 @implementation SentryTracer {
     SentrySpan *_rootSpan;
