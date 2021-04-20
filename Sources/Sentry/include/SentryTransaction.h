@@ -1,4 +1,5 @@
-#import <Sentry/Sentry.h>
+#import "SentrySpan.h"
+#import "SentryEvent.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
